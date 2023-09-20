@@ -27,15 +27,17 @@ def run_rectangle():
     print("Rectangle")
 
     #bottom line
-    for x in range(50, 750+1, 10):
-        render_all(x, 90)
+    #for x in range(50, 750+1, 10):
+     #   render_all(x, 90)
 
-
-   # for x in range(750, 50, -10):
+    #top line
+    for x in range(750, 50-1, -10):
+        #메인을 건들지말고 idle에서 확인 for~~:print(x)
+        render_all(x, 550)
         
 
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
     break
 
