@@ -31,10 +31,14 @@ def run_rectangle():
      #   render_all(x, 90)
 
     #top line
-    for x in range(750, 50-1, -10):
+    #for x in range(750, 50-1, -10):
         #메인을 건들지말고 idle에서 확인 for~~:print(x)
-        render_all(x, 550)
-        
+     #   render_all(x, 550)
+
+
+    #right line
+    for y in range(90, 550 +1, 10):
+         render_all(750, y)
 
 while True:
     #run_circle()
